@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn_link{
+  position: absolute;
+  bottom: 1rem;
+}
+
+.moreInfo{
+  position: absolute;
+  bottom: 4rem;
+}
+
+#root{
+  position: relative;
+  top: 3rem;
+}
