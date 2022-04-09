@@ -18,6 +18,7 @@ export class NavbarComp extends Component {
                                 navbarScroll
                             >
                                 <Nav.Link as={Link} to="/">Home</Nav.Link>
+                                <Nav.Link as={Link} to="/about">About</Nav.Link>
                                 <NavDropdown title="Categories" id="basic-nav-dropdown">
                                     <NavDropdown.Item as={Link} to="general">General</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="entertainment">Entertainment</NavDropdown.Item>

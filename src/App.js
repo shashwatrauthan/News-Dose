@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import React, { Component } from 'react'
 import NavbarComp from './components/NavbarComp';
 import NewsComp from './components/NewsComp';
+import AboutComp from './components/AboutComp';
 import LoadingBar from 'react-top-loading-bar';
 
 export default class App extends Component {
@@ -26,6 +27,7 @@ export default class App extends Component {
         />
         <NavbarComp />
         <Routes>
+          <Route exact path="/about" element={<AboutComp/>} />
           <Route exact path="/" element={<NewsComp apiKey={this.apiKey} setProgress={this.setProgress} key="general" country="in" pageSize={8} category="general" />} />
           <Route exact path="general" element={<NewsComp apiKey={this.apiKey} setProgress={this.setProgress} key="general1" country="in" pageSize={8} category="general" />} />
           <Route exact path="entertainment" element={<NewsComp apiKey={this.apiKey} setProgress={this.setProgress} key="entertainment" country="in" pageSize={8} category="entertainment" />} />
