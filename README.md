@@ -1,5 +1,6 @@
-# Live Project Link
+# Live Project Links
 [https://newsdose.vercel.app/](https://newsdose.vercel.app/)
+
 [https://news-dose.netlify.app/](https://news-dose.netlify.app/)
 
 
